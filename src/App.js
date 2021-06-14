@@ -5,13 +5,9 @@ import ReactProps from "./1. Operations/react-props";
 import ReactPropChildren from "./1. Operations/react-prop-children";
 import ReactEvents from "./1. Operations/react-events";
 import ReactPropsAdv from "./1. Operations/react-props-adv";
+import {testData} from "./general/constants";
 
 function App() {
-    const testData = {
-        'name': 'Test spread operator',
-        'data': 'This is spread operator text',
-        'date': Date.now(),
-    }
   return (
     <div className="App">
       <header className="App-header">
