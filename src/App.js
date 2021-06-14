@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from "./Components/hello-world";
-import ReactProps from "./Components/react-props";
-import ReactPropChildren from "./Components/react-prop-children";
-import ReactEvents from "./Components/react-events";
+import HelloWorld from "./1. Operations/hello-world";
+import ReactProps from "./1. Operations/react-props";
+import ReactPropChildren from "./1. Operations/react-prop-children";
+import ReactEvents from "./1. Operations/react-events";
+import ReactPropsAdv from "./1. Operations/react-props-adv";
 
 function App() {
+    const testData = {
+        'name': 'Test spread operator',
+        'data': 'This is spread operator text',
+        'date': Date.now(),
+    }
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +27,7 @@ function App() {
               </p>
           </ReactPropChildren>
           <ReactEvents />
+          <ReactPropsAdv { ...testData } />
       </header>
     </div>
   );
