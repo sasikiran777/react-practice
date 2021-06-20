@@ -22,3 +22,28 @@ export const useStateAdvUpdatedData = {
     'date': '05/10/95',
     'type': 'Management'
 }
+
+// 1 use-effect-basics.js
+export const useEffectDef = 'Use Effect is called after every re render including first render'
+export const useEffectRules = 'Can not be inside a function, Can not use useState inside useEffect it will create infinite loop, Can not wrap use effect inside a conditional statement'
+
+// 2.1 use-effect-adv.js
+export const useEffectInitData = {
+    'song': 'Happier',
+    'by': 'Marshmello ft. Bastille'
+};
+
+export const useEffectUpdatedData = {
+    'song': 'Lost Cause',
+    'by': 'Billie Eilish'
+};
+
+export const useEffectCarInitData = {
+    'model': 'Mustang',
+    'maker': 'Ford'
+};
+
+export const useEffectCarUpdatedData = {
+    'model': 'Corvette',
+    'maker': 'Chevrolet'
+};

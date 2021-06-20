@@ -11,6 +11,10 @@ import UseStateAdv from "./2. Use State Hook/2.0 use-state-adv";
 import UseStateAdvSprade from "./2. Use State Hook/2.1 use-state-adv";
 import UseStateAdvSpradeWithKey from "./2. Use State Hook/2.2 use-state-adv";
 import UseStateAdvPrevState from "./2. Use State Hook/2.3 use-state-adv";
+import UseEffectBasics from "./3. Use Effect Hook/1 use-effect-basics";
+import UseEffectAdv from "./3. Use Effect Hook/2.0 use-effect-adv";
+import UseEffectAdvObject from "./3. Use Effect Hook/2.1 use-effect-adv";
+import UseEffectAdvCleanUp from "./3. Use Effect Hook/2.3 use-effect-adv";
 
 function App() {
   return (
@@ -35,13 +39,17 @@ function App() {
 
       {/*    React Hooks Start */}
           {/*  React useState Hook */}
-            {/*  <UseStateBasic />*/}
+            {/*<UseStateBasic />*/}
             {/*<UseStateAdv />*/}
             {/*<UseStateAdvSprade />*/}
             {/*<UseStateAdvSpradeWithKey />*/}
             {/*<UseStateAdvPrevState />*/}
 
           {/*  React useEffect Hook */}
+            {/*<UseEffectBasics />*/}
+            {/*<UseEffectAdv />*/}
+            {/*<UseEffectAdvObject />*/}
+            <UseEffectAdvCleanUp />
       {/*    React Hooks End */}
       </header>
     </div>
