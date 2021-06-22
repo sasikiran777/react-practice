@@ -36,6 +36,7 @@ function UnControlledInputs() {
         <>
             <form onSubmit={validateEmployee}>
                 <div>
+                    {/*<label htmlFor='name'>Name</label>*/}
                     <input id='name' type='text'
                            value={employee.name}
                            name='name'
@@ -45,6 +46,7 @@ function UnControlledInputs() {
                         <p className='error'>{error.name}</p> : ''}
                 </div>
                 <div>
+                    {/*<label htmlFor='designation'>Designation</label>*/}
                     <input id='designation' type='text'
                            value={employee.designation}
                            name='designation'
