@@ -15,6 +15,8 @@ import UseEffectBasics from "./3. Use Effect Hook/1 use-effect-basics";
 import UseEffectAdv from "./3. Use Effect Hook/2.0 use-effect-adv";
 import UseEffectAdvObject from "./3. Use Effect Hook/2.1 use-effect-adv";
 import UseEffectAdvCleanUp from "./3. Use Effect Hook/2.3 use-effect-adv";
+import ControlledInputs from "./4. Forms/ControlledInputs";
+import UnControlledInputs from "./4. Forms/UnControlledInputs";
 
 function App() {
   return (
@@ -49,7 +51,12 @@ function App() {
             {/*<UseEffectBasics />*/}
             {/*<UseEffectAdv />*/}
             {/*<UseEffectAdvObject />*/}
-            <UseEffectAdvCleanUp />
+            {/*<UseEffectAdvCleanUp />*/}
+      {/*    React Hooks End */}
+
+      {/*    React Hooks Start */}
+      {/*      <ControlledInputs />*/}
+            <UnControlledInputs />
       {/*    React Hooks End */}
       </header>
     </div>
