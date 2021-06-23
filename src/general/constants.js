@@ -47,3 +47,23 @@ export const useEffectCarUpdatedData = {
     'model': 'Corvette',
     'maker': 'Chevrolet'
 };
+
+export const people = [
+    {
+        id: Date.now(),
+        name: 'Jhon',
+
+    },
+    {
+        id: Date.now(),
+        name: 'Hal',
+    },
+    {
+        id: Date.now(),
+        name: 'Austin',
+    },
+    {
+        id: Date.now(),
+        name: 'Ashly',
+    },
+]
