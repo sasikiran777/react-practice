@@ -19,6 +19,7 @@ import ControlledInputs from "./4. Forms/ControlledInputs";
 import UnControlledInputs from "./4. Forms/UnControlledInputs";
 import UseRefBasics from "./5. Use Ref/1 use-ref-basics";
 import UseReducer from './6. Use Reducer'
+import PropDrillingBasics from "./7. Prop Drilling/1 prop-drilling-basics";
 
 function App() {
   return (
@@ -62,8 +63,10 @@ function App() {
             {/*<UseRefBasics/>*/}
 
           {/* React Use Reducer Hook  */}
-            {/*<ControlledInputs />*/}
-            <UseReducer/>
+            {/*<UseReducer/>*/}
+
+          {/* React Prop drilling  */}
+          <PropDrillingBasics/>
 
       {/*React Hooks End */}
       </header>

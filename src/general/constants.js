@@ -50,20 +50,20 @@ export const useEffectCarUpdatedData = {
 
 export const people = [
     {
-        id: Date.now(),
+        id: 1,
         name: 'Jhon',
 
     },
     {
-        id: Date.now(),
+        id: 2,
         name: 'Hal',
     },
     {
-        id: Date.now(),
+        id: 3,
         name: 'Austin',
     },
     {
-        id: Date.now(),
+        id: 4,
         name: 'Ashly',
     },
 ]
