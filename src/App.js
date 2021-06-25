@@ -23,6 +23,7 @@ import PropDrillingBasics from "./7. Prop Drilling/1 prop-drilling-basics";
 import UseContextBasics from "./8. Use Context/1 use-context-basics";
 import CustomHooksBasics from "./9. Custom Hooks/1 custom-hooks-basics";
 import PropTypeBasics from "./10. Prop Type/1 prop-types-basics";
+import ReactRouter from "./11. React Routers";
 
 function App() {
   return (
@@ -78,9 +79,15 @@ function App() {
           {/*    <CustomHooksBasics/>*/}
 
           {/* React Prop Types  */}
-              <PropTypeBasics/>
+          {/*    <PropTypeBasics/>*/}
+
+          {/* React Custom Hook  */}
+          {/*    <CustomHooksBasics/>*/}
 
       {/*React Hooks End */}
+
+          {/* React Router  */}
+              <ReactRouter/>
       </header>
     </div>
   );

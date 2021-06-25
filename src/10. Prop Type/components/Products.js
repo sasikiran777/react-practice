@@ -11,7 +11,7 @@ const Products = ({name, img}) => {
         <>
             <div>
                 <p>{name}</p>
-                <p><img src={img.file}/></p>
+                <p><img src={img.file} height='200' width='200'/></p>
                 {/*<p><img src={path || sample} height='200' width='200' /></p>*/}
             </div>
         </>
