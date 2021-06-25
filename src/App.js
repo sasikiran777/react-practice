@@ -22,6 +22,7 @@ import UseReducer from './6. Use Reducer'
 import PropDrillingBasics from "./7. Prop Drilling/1 prop-drilling-basics";
 import UseContextBasics from "./8. Use Context/1 use-context-basics";
 import CustomHooksBasics from "./9. Custom Hooks/1 custom-hooks-basics";
+import PropTypeBasics from "./10. Prop Type/1 prop-types-basics";
 
 function App() {
   return (
@@ -74,7 +75,10 @@ function App() {
             {/*  <UseContextBasics/>*/}
 
           {/* React Custom Hook  */}
-              <CustomHooksBasics/>
+          {/*    <CustomHooksBasics/>*/}
+
+          {/* React Prop Types  */}
+              <PropTypeBasics/>
 
       {/*React Hooks End */}
       </header>
