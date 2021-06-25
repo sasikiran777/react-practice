@@ -16,6 +16,7 @@ const UseContextBasics = () => {
 
     return (
         <NameContext.Provider value={{ data, removeItem }}>
+            <div>Context Api</div>
             <ListRender />
         </NameContext.Provider>
     )
