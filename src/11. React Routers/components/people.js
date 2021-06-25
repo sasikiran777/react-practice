@@ -7,7 +7,7 @@ const People = () => {
     return(
         <>
             {people.map(value => {
-                return <div>
+                return <div key={value.id}>
                     <p>{value.name}</p>
                     <Link to={`/people/${value.id}`}>View</Link>
                 </div>
