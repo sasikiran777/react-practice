@@ -1,6 +1,5 @@
 import React, {useContext, useState} from "react";
 import {people} from "../general/constants";
-import {logDOM} from "@testing-library/react";
 
 const NameContext = React.createContext();
 // context provides two components provider, consumer
