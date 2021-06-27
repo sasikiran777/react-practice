@@ -24,6 +24,7 @@ import UseContextBasics from "./8. Use Context/1 use-context-basics";
 import CustomHooksBasics from "./9. Custom Hooks/1 custom-hooks-basics";
 import PropTypeBasics from "./10. Prop Type/1 prop-types-basics";
 import ReactRouter from "./11. React Routers";
+import ReduxTutorial from "./12. Redux"
 
 function App() {
   return (
@@ -86,8 +87,15 @@ function App() {
 
       {/*React Hooks End */}
 
-          {/* React Router  */}
-              <ReactRouter/>
+
+      {/* React Router  */}
+          {/*    <ReactRouter/>*/}
+      {/* End React Router  */}
+
+      {/* Redux Start  */}
+          <ReduxTutorial />
+      {/* Redux End  */}
+
       </header>
     </div>
   );
